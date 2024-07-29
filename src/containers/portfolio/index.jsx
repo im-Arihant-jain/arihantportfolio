@@ -12,7 +12,7 @@ import { useState } from "react";
 const portfolioData = [
   {
     id: 1,
-    name: "VILLAGE-STUDENTS STUDY TRACKER",
+    name: "VILLAGE-STUDY-TRACKER",
     image: ImageOne,
     link: "https://github.com/im-Arihant-jain/vilage-studymanager",
   },

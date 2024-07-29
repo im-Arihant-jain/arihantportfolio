@@ -21,7 +21,7 @@ const personalDetails = [
   },
   {
     label: "Course",
-    value: "B-Tech, Computer Science Engineering",
+    value: "B-Tech, CSE",
   },
   {
     label: "Email",
@@ -78,6 +78,7 @@ const About = () => {
                 <li key={i}>
                   <span className="title">{item.label}</span>
                   <span className="value">{item.value}</span>
+                  <br/>
                 </li>
               ))}
               
