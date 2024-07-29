@@ -29,7 +29,7 @@ const personalDetails = [
   },
   {
     label: "Contact No",
-    value: "+11 8595546840",
+    value: "+91 8595546840",
   },
 ];
 

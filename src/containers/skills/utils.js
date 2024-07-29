@@ -1,6 +1,6 @@
 export const skillsData = [
   {
-    label: "PROGRAMMING LANGUAGES",
+    label: "PROG. LANGUAGES",
     data: [
       {
         skillName: "C++",
@@ -50,7 +50,7 @@ export const skillsData = [
       ],
     },
     {
-      label: "FRAMEWORKS & LIBRARIES",
+      label: "FRAMEWORKS & LIB.",
       data: [
         {
           skillName: "REACT",
