@@ -50,7 +50,7 @@ export const skillsData = [
       ],
     },
     {
-      label: "FRAMEWORKS AND LIBRARIES",
+      label: "FRAMEWORKS & LIBRARIES",
       data: [
         {
           skillName: "REACT",

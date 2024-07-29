@@ -1,34 +1,17 @@
 import React, { useState } from "react";
-import { FaBars, FaReact } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import { HiX } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import aridp from './aridp.jpeg'
+import aridp from './aridp.jpeg';
 import "./styles.scss";
+
 const data = [
-  {
-    label: "HOME",
-    to: "/",
-  },
-  {
-    label: "ABOUT ME",
-    to: "/about",
-  },
-  {
-    label: "SKILLS",
-    to: "/skills",
-  },
-  {
-    label: "EDUCATION AND EXPERIENCE",
-    to: "/resume",
-  },
-  {
-    label: "PROJECTS",
-    to: "/portfolio",
-  },
-  // {
-  //   label: "CONTACT",
-  //   to: "/contact",
-  // },
+  { label: "HOME", to: "/" },
+  { label: "ABOUT ME", to: "/about" },
+  { label: "SKILLS", to: "/skills" },
+  { label: "EDUCATION AND EXPERIENCE", to: "/resume" },
+  { label: "PROJECTS", to: "/portfolio" },
+  // { label: "CONTACT", to: "/contact" },
 ];
 
 const Navbar = () => {
@@ -37,33 +20,31 @@ const Navbar = () => {
   const handleToggleIcon = () => {
     setToggleIcon(!toggleIcon);
   };
+
   return (
-    <div>
-      <nav className="navbar">
-        <div className="navbar__container">
-          <Link to={"/"} className="navbar__container__logo">
-            <img src={aridp}></img>
-          </Link>
+    <nav className="navbar">
+      <div className="navbar__container">
+        <Link to={"/"} className="navbar__container__logo">
+          <img src={aridp} alt="Logo" />
+        </Link>
+        <div className="nav-icon" onClick={handleToggleIcon}>
+          {toggleIcon ? <HiX size={30} /> : <FaBars size={30} />}
         </div>
-        <ul
-          className={`navbar__container__menu ${toggleIcon ? "active" : ""} `}
-        >
+        <ul className={`navbar__container__menu ${toggleIcon ? "active" : ""}`}>
           {data.map((item, key) => (
             <li key={key} className="navbar__container__menu__item">
               <Link
                 className="navbar__container__menu__item__links"
                 to={item.to}
+                onClick={handleToggleIcon}
               >
                 {item.label}
               </Link>
             </li>
           ))}
         </ul>
-        <div className="nav-icon" onClick={handleToggleIcon}>
-          {toggleIcon ? <HiX size={30} /> : <FaBars size={30} />}
-        </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 

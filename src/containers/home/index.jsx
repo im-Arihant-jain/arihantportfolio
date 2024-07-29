@@ -13,13 +13,16 @@ const Home = () => {
   return (
     <section id="home" className="home">
       <div className="home__text-wrapper">
-        <h1>
-          Hello, I'm Arihant Jain
-          <br />
-          Full-Stack Developer & Algo-Enthusiast
-          
-        
-        </h1>
+      <h1>
+  Hello, I'm Arihant Jain
+  <br />
+  <div className="break-on-small">
+    <div>Full-Stack Developer & </div>
+    <div>  Algo-Enthusiast</div>
+  </div>
+</h1>
+
+
       </div>
       <Animate
         play

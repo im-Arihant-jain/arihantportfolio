@@ -1,3 +1,15 @@
+
+
+ .break-on-small{
+  display: inline-flex;
+ }
+ .break-on-small {
+  @media only screen and (max-width: 768px) {
+    display: inline-block;
+    margin-right: 5px; /* Optional, to add space between the lines */
+  }
+}
+
 .home {
   position: relative;
   height: 100%;
