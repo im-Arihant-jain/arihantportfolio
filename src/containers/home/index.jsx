@@ -7,21 +7,23 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleNavigateToContactMePage = () => {
-    navigate("/contact");
+    window.open("https://www.linkedin.com/in/arihant-jain-a2079725a/", '_blank');
   };
 
   return (
     <section id="home" className="home">
       <div className="home__text-wrapper">
         <h1>
-          Hello, I'm John
+          Hello, I'm Arihant Jain
           <br />
-          Front end developer
+          Full-Stack Developer & Algo-Enthusiast
+          
+        
         </h1>
       </div>
       <Animate
         play
-        duration={1.5}
+        duration={1}
         delay={1}
         start={{
           transform: "translateY(550px)",
@@ -31,7 +33,7 @@ const Home = () => {
         }}
       >
         <div className="home__contact-me">
-          <button onClick={handleNavigateToContactMePage}>Hire Me</button>
+          <button onClick={handleNavigateToContactMePage}>LETS CONNECT</button>
         </div>
       </Animate>
     </section>

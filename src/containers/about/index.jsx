@@ -9,29 +9,32 @@ import { FaDev, FaDatabase } from "react-icons/fa";
 const personalDetails = [
   {
     label: "Name",
-    value: "John Doe",
+    value: "Arihant Jain",
   },
   {
     label: "Age",
-    value: "27",
+    value: "20",
   },
   {
-    label: "Address",
-    value: "India",
+    label: "College",
+    value: "Dehi Technological University",
+  },
+  {
+    label: "Course",
+    value: "B-Tech, Computer Science Engineering",
   },
   {
     label: "Email",
-    value: "demo@example.com",
+    value: "arihantjain@gmail.com",
   },
   {
     label: "Contact No",
-    value: "+11 3456789056",
+    value: "+11 8595546840",
   },
 ];
 
 const jobSummary =
-  "Seasoned and independent Front End Developer with 5 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about aesthetics and UI design. It is imperative that you provide a thorough and professional approach to your resume. As a Front End Developer you will be judged by your ability to use UX and UI concepts and follow design guidelines. It is about expressing your attention to detail and how you can help implement design ideas for your future employer";
-
+  "I'm Arihant Jain, a B.Tech student at DTU with a stellar 9.40 CGPA. I'm a coding whiz with skills in C++, Python, JavaScript, and even Solidity. I've gained hands-on experience as a Frontend Developer Intern at Sponsogram and a Web Designer Intern at DTU-USIP. I've built some cool projects like an Advanced Group Expense Manager and an Online Code Compiler using React and Node.js. Not just a techie, I'm also the brain behind DECODE, an online community and YouTube channel with 200+ videos. With achievements like solving 600+ DSA questions and being a top 1% coder, I’m truly passionate about what I do!"
 const About = () => {
   return (
     <section id="about" className="about">
@@ -52,7 +55,7 @@ const About = () => {
               transform: "translatex(0px)",
             }}
           >
-            <h3>Front End Developer</h3>
+            <h3>Full Stack Developer</h3>
             <p>{jobSummary}</p>
           </Animate>
 
@@ -77,37 +80,43 @@ const About = () => {
                   <span className="value">{item.value}</span>
                 </li>
               ))}
+              
             </ul>
+            <ul>
+            
+            <li  >   <a href="https://www.linkedin.com/in/arihant-jain-a2079725a/"><span className="title">LINKEDIN</span> </a> </li>
+              </ul>
           </Animate>
         </div>
         <div className="about__content__servicesWrapper">
-          <Animate
-            play
-            duration={1.5}
-            delay={1}
-            start={{
-              transform: "translateX(600px)",
-            }}
-            end={{
-              transform: "translatex(0px)",
-            }}
-          >
-            <div className="about__content__servicesWrapper__innerContent">
-              <div>
-                <FaDev size={60} color="var( --yellow-theme-main-color)" />
-              </div>
-              <div>
-                <DiAndroid size={60} color="var( --yellow-theme-main-color)" />
-              </div>
-              <div>
-                <FaDatabase size={60} color="var( --yellow-theme-main-color)" />
-              </div>
-              <div>
-                <DiApple size={60} color="var( --yellow-theme-main-color)" />
-              </div>
-            </div>
-          </Animate>
+       
+      <Animate
+        play
+        duration={1.5}
+        delay={1}
+        start={{
+          transform: "translateX(600px)",
+        }}
+        end={{
+          transform: "translateX(0px)",
+        }}
+      >
+        <div className="about__content__servicesWrapper__innerContent">
+          <div>
+            <FaDev size={60} color="var(--yellow-theme-main-color)" />
+          </div>
+          <div>
+            <DiAndroid size={60} color="var(--yellow-theme-main-color)" />
+          </div>
+          <div>
+            <FaDatabase size={60} color="var(--yellow-theme-main-color)" />
+          </div>
+          <div>
+            <DiApple size={60} color="var(--yellow-theme-main-color)" />
+          </div>
         </div>
+      </Animate>
+    </div>    
       </div>
     </section>
   );

@@ -11,51 +11,63 @@ import { useState } from "react";
 
 const portfolioData = [
   {
-    id: 2,
-    name: "Ecommerce",
+    id: 1,
+    name: "VILLAGE-STUDENTS STUDY TRACKER",
     image: ImageOne,
-    link: "",
+    link: "https://github.com/im-Arihant-jain/vilage-studymanager",
   },
   {
-    id: 3,
-    name: "Notes App",
-    link: "",
+    id: 2,
+    name: "ADVANCE EXPENSE MANAGER",
+    link: "https://github.com/im-Arihant-jain/tracker",
     image: ImageTwo,
   },
   {
-    id: 2,
-    name: "Supplier Design",
+    id: 3,
+    name: "ONLINE COMPILER",
     image: ImageThree,
-    link: "",
+    link: "https://github.com/im-Arihant-jain/decode-editor",
   },
   {
-    id: 2,
-    name: "Todo App",
+    id: 4,
+    name: "CUSTOMISED MEME GENERATOR",
     image: ImageFour,
 
+    link: "https://github.com/im-Arihant-jain/memegen",
+  },
+  {
+    id: 5,
+    name: "PORTFOLIO",
+    image: ImageFive,
     link: "",
   },
   {
-    id: 3,
-    name: "Shopping cart design",
+    id: 6,
+    name: "NOTES AND TODO-LIST APP",
+    image: ImageOne,
+    link: "https://github.com/im-Arihant-jain/note_todo",
+  },
+  {
+    id: 7,
+    name: "DECODE WEBSITE",
     image: ImageFive,
-    link: "",
+    link: "https://github.com/im-Arihant-jain/decode_website",
   },
 ];
 
 const filterData = [
   {
     filterId: 1,
-    label: "All",
+    label: "PROJECTS",
   },
-  {
-    filterId: 2,
-    label: "Developement",
-  },
-  {
-    filterId: 3,
-    label: "Design",
-  },
+  // {
+  //   filterId: 2,
+  //   label: "Developement",
+  // },
+  // {
+  //   filterId: 3,
+  //   label: "Design",
+  // },
 ];
 
 const Portfolio = () => {
@@ -116,7 +128,7 @@ const Portfolio = () => {
                 {index === hoveredValue && (
                   <div>
                     <p>{item.name}</p>
-                    <button>Visit</button>
+                    <a href={item.link}><button>Visit</button></a>
                   </div>
                 )}
               </div>

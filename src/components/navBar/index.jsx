@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaReact } from "react-icons/fa";
 import { HiX } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import aridp from './aridp.jpeg'
 import "./styles.scss";
 const data = [
   {
@@ -17,17 +18,17 @@ const data = [
     to: "/skills",
   },
   {
-    label: "RESUME",
+    label: "EDUCATION AND EXPERIENCE",
     to: "/resume",
   },
   {
-    label: "PORTFOLIO",
+    label: "PROJECTS",
     to: "/portfolio",
   },
-  {
-    label: "CONTACT",
-    to: "/contact",
-  },
+  // {
+  //   label: "CONTACT",
+  //   to: "/contact",
+  // },
 ];
 
 const Navbar = () => {
@@ -41,7 +42,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar__container">
           <Link to={"/"} className="navbar__container__logo">
-            <FaReact size={30} />
+            <img src={aridp}></img>
           </Link>
         </div>
         <ul

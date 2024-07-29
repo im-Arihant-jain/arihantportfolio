@@ -1,42 +1,42 @@
 export const data = {
     experience: [
       {
-        title: "Consultant",
-        subTitle: "Miami, FL",
+        title: "Front-Developer Intern, ",
+        subTitle: "Sponsogram (Dec 2023-March 2024)",
         description:
-          " User Experience, Visual Design",
+          " Contributed to their website as a frontend developer, creating aesthetic UI and fucnctionaly connected components. Leveraging cuting edge technologies NEXT-JS, tailwind-css and typescript",
       },
       {
-        title: "Senior Consultant",
-        subTitle: "London, UK",
+        title: "Web-Designer Intern, ",
+        subTitle: "DTU-USIP (Feb 2024-May 2024)",
         description:
-          "Web development, Databases, Backend developement",
+          "Did web designing takse, mananged there database of teachers, designed posters and managed there event scheduling website.",
       },
       {
-        title: "Project Manager",
-        subTitle: "Bangalore, INDIA",
+        title: "Corporate-Executive, ",
+        subTitle: "DTU-SMV (Nov 2022-Oct 2023)",
         description:
-          "Creative Direction Project Management, Team Leading",
+          "Managed sponsorship collaborations and social media post",
       },
     ],
     education: [
       {
-        title: "Secondary",
-        subTitle: "ABC School",
+        title: "Secondary,",
+        subTitle: "St. John’s Academy (2020)",
         description:
-          "10th Grade",
+          "10th Grade, scored 96.86%",
       },
       {
-        title: "Higher Secondary",
-        subTitle: "ABC School of higher education",
+        title: "Higher Secondary, ",
+        subTitle: "St. John’s Academy (2022)",
         description:
-          "12th Grade in Science",
+          "12th Grade, scored 94.40%",
       },
       {
-        title: "B.Tech",
-        subTitle: "XYZ institute of technology",
+        title: "B.Tech,",
+        subTitle: "Delhi-Technological-University (2022-2026)",
         description:
-          "Bachelor of technology in computer science",
+          "Bachelor of technology in computer science, current CGPA : 9.40 \n ",
       },
     ],
   };
