@@ -47,11 +47,19 @@ export const skillsData = [
           skillName: "MY SQL",
           percentage: "75",
         },
+        {
+          skillName: "TYPESCRIPT",
+          percentage: "75",
+        },
       ],
     },
     {
       label: "FRAMEWORKS & LIB.",
       data: [
+        {
+          skillName: "NEXT-JS",
+          percentage: "75",
+        },
         {
           skillName: "REACT",
           percentage: "75",
