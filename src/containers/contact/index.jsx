@@ -21,7 +21,7 @@ const Contact = () => {
           }}
           end={{
             transform: "translateX(0px)",
-          }}
+          }}      // graphs kaa simple saa question tha question tha 
         >
           <h3 className="contact__content__header-text">Let's Talk</h3>
         </Animate>

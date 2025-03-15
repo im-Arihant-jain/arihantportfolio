@@ -34,7 +34,7 @@ const personalDetails = [
 ];
 
 const jobSummary =
-  "I'm Arihant Jain, a B.Tech student at DTU with a stellar 9.40 CGPA. I'm a coding whiz with skills in C++, Python, JavaScript, and even Solidity. I've gained hands-on experience as a Frontend Developer Intern at Sponsogram and a Web Designer Intern at DTU-USIP. I've built some cool projects like an Advanced Group Expense Manager and an Online Code Compiler using React and Node.js. Not just a techie, I'm also the brain behind DECODE, an online community and YouTube channel with 200+ videos. With achievements like solving 600+ DSA questions and being a top 1% coder, I’m truly passionate about what I do!"
+  "I'm Arihant Jain, a B.Tech student at DTU with a stellar 9.40 CGPA. I'm a coding whiz with skills in C++, Python, JavaScript, and even Solidity. I've gained hands-on experience as a Frontend Developer Intern at Sponsogram and a Web Designer Intern at DTU-USIP. I've built some cool projects like an Advanced Group Expense Manager and an Online Code Compiler using React and Node.js. Not just a techie, I'm also the brain behind DECODE, an online community and YouTube channel with 200+ videos."
 const About = () => {
   return (
     <section id="about" className="about">
@@ -86,6 +86,12 @@ const About = () => {
             <ul>
             
             <li  >   <a href="https://www.linkedin.com/in/arihant-jain-a2079725a/"><span className="title">LINKEDIN</span> </a> </li>
+            
+            <li  >   <a href="https://codeforces.com/profile/arihantjain72000"><span className="title">CODEFORCES</span> </a> </li>
+            
+            <li  >   <a href="https://www.linkedin.com/in/arihant-jain-a2079725a/"><span className="title">LEETCODE</span> </a> </li>
+            
+            <li  >   <a href="https://leetcode.com/u/im__ArihantJain/"><span className="title">CODE-CHEF</span> </a> </li>
               </ul>
           </Animate>
         </div>
